@@ -1,0 +1,157 @@
+html,
+body,
+#body-wrap {
+    background: transparent !important;
+}
+
+body::before {
+    content: none !important;
+}
+
+/* 固定 MP4 背景层，由 /js/video-bg.js 注入 */
+#video-bg-container {
+    position: fixed;
+    inset: 0;
+    z-index: -1000;
+    overflow: hidden;
+    pointer-events: none;
+    background: #101820 url('/img/bg.jpg') center/cover no-repeat;
+}
+
+#video-bg-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.12) 42%, rgba(0, 0, 0, 0.32)),
+        rgba(8, 14, 22, 0.18);
+}
+
+#video-background {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 让 Butterfly 原背景层和页面头图不遮住视频 */
+#web_bg {
+    background: transparent !important;
+    background-image: none !important;
+}
+
+#web_bg::before {
+    background: rgba(0, 0, 0, 0.12) !important;
+}
+
+#page-header,
+#page-header.full_page,
+#page-header.not-home-page,
+#page-header.post-bg {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+#page-header:not(.not-top-img)::before {
+    background: rgba(0, 0, 0, 0.35) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #video-background {
+        display: none;
+    }
+}
+
+/* 毛玻璃卡片效果 */
+#recent-posts > .recent-post-item,
+.card-widget {
+    background: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15) !important;
+}
+
+/* 侧边栏卡片 */
+#aside-content .card-widget {
+    background: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* 文章内容区域 */
+#post {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border-radius: 12px !important;
+    padding: 2rem !important;
+}
+
+/* 导航栏毛玻璃 */
+#nav {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+/* 页脚毛玻璃 */
+#footer {
+    background: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* 悬停效果 */
+#recent-posts > .recent-post-item:hover,
+.card-widget:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.25) !important;
+    transition: all 0.3s ease;
+}
+
+/* 樱花飘落动画 */
+@keyframes sakura-fall {
+    0% {
+        transform: translateY(-10vh) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* 标签云样式 */
+.card-tag-cloud a {
+    background: rgba(255, 153, 153, 0.15) !important;
+    color: #FF9999 !important;
+    border: 1px solid rgba(255, 153, 153, 0.3) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.card-tag-cloud a:hover {
+    background: rgba(255, 153, 153, 0.3) !important;
+    transform: scale(1.05);
+}
+
+/* 代码块美化 */
+figure.highlight {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(5px) !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(255, 153, 153, 0.2) !important;
+}
+
+/* 文章卡片圆角 */
+.recent-post-item {
+    border-radius: 16px !important;
+    overflow: hidden;
+}
+
+/* 头像样式 */
+.avatar-img {
+    border: 3px solid rgba(255, 153, 153, 0.5) !important;
+    box-shadow: 0 4px 15px rgba(255, 153, 153, 0.3) !important;
+}
