@@ -8,14 +8,14 @@ body::before {
     content: none !important;
 }
 
-/* 固定 MP4 背景层，由 /js/video-bg.js 注入 */
+/* 固定图片背景层，由 /js/video-bg.js 注入 */
 #video-bg-container {
     position: fixed;
     inset: 0;
     z-index: -1000;
     overflow: hidden;
     pointer-events: none;
-    background: #101820 url('/img/bg.jpg') center/cover no-repeat;
+    background: #101820 url('/reze-selfie-3840x2160-26716.jpg') center/cover no-repeat;
 }
 
 #video-bg-container::after {
@@ -36,7 +36,7 @@ body::before {
     object-fit: cover;
 }
 
-/* 让 Butterfly 原背景层和页面头图不遮住视频 */
+/* 让 Butterfly 原背景层和页面头图不遮住自定义背景 */
 #web_bg {
     background: transparent !important;
     background-image: none !important;
