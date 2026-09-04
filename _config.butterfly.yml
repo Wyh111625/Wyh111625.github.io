@@ -1,0 +1,257 @@
+# Butterfly 5.x theme configuration
+# Documentation: https://butterfly.js.org/
+
+nav:
+  logo:
+  display_title: true
+  display_post_title: true
+  fixed: true
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-box-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-user
+
+social:
+  fab fa-github: https://github.com/Wyh111625 || GitHub || '#24292f'
+
+favicon: /img/favicon.svg
+avatar:
+  img: /img/avatar.svg
+  effect: false
+
+disable_top_img: false
+default_top_img: 'linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #7c3aed 100%)'
+index_img: 'linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #7c3aed 100%)'
+archive_img: 'linear-gradient(135deg, #111827 0%, #0f766e 100%)'
+tag_img: 'linear-gradient(135deg, #111827 0%, #7c3aed 100%)'
+category_img: 'linear-gradient(135deg, #111827 0%, #0369a1 100%)'
+footer_img: false
+background: 'linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%)'
+
+cover:
+  index_enable: false
+  aside_enable: false
+  archives_enable: false
+  default_cover:
+
+error_404:
+  enable: true
+  subtitle: 页面走丢了，返回首页看看吧
+  background: 'linear-gradient(135deg, #0f172a 0%, #312e81 100%)'
+
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+    loop: true
+  source: false
+  sub:
+    - 保持好奇，持续创造
+    - 记录技术，也记录生活
+
+index_layout: 3
+index_post_content:
+  method: 2
+  length: 240
+
+post_meta:
+  page:
+    date_type: created
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    position: left
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+code_blocks:
+  theme: darker
+  macStyle: true
+  height_limit: 700
+  word_wrap: false
+  copy: true
+  language: true
+  shrink: false
+  fullpage: false
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false
+  scroll_percent: true
+
+post_copyright:
+  enable: true
+  decode: false
+  author_href:
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+related_post:
+  enable: true
+  limit: 6
+  date_type: created
+
+post_pagination: 1
+
+footer:
+  nav:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: true
+  custom_text: 用心记录每一次成长
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: 保持好奇，持续创造
+    button:
+      enable: false
+      icon: fab fa-github
+      text: 关注我
+      link: https://github.com/Wyh111625
+  card_announcement:
+    enable: true
+    content: 欢迎来到 yhW 的个人博客 👋
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_newest_comments:
+    enable: false
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+  card_tags:
+    enable: true
+    limit: 30
+    color: false
+    orderby: name
+    order: 1
+  card_archives:
+    enable: true
+    type: monthly
+    format: YYYY年MM月
+    order: -1
+    limit: 8
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    runtime_date:
+
+readmode: true
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
+rightside_scroll_percent: true
+copy:
+  enable: true
+  copyright:
+    enable: false
+    limit_count: 150
+
+busuanzi:
+  site_uv: false
+  site_pv: false
+  page_pv: false
+
+search:
+  use: local_search
+  placeholder: 搜索文章
+  local_search:
+    preload: false
+    top_n_per_article: 1
+    unescape: false
+    pagination:
+      enable: true
+      hitsPerPage: 8
+
+share:
+  use: sharejs
+  sharejs:
+    sites: wechat,weibo,qq
+
+# 评论系统默认关闭。推荐使用 Giscus，配置方法见 README.md。
+comments:
+  use:
+  text: true
+  lazyload: true
+  count: false
+  card_post_count: false
+
+giscus:
+  repo:
+  repo_id:
+  category_id:
+  light_theme: light
+  dark_theme: dark
+  js:
+  option:
+
+theme_color:
+  enable: true
+  main: '#2563eb'
+  paginator: '#2563eb'
+  button_hover: '#7c3aed'
+  text_selection: '#bfdbfe'
+  link_color: '#2563eb'
+  meta_color: '#64748b'
+  hr_color: '#cbd5e1'
+  code_foreground: '#e2e8f0'
+  code_background: '#0f172a'
+  toc_color: '#2563eb'
+  blockquote_padding_color: '#2563eb'
+  blockquote_background_color: '#eff6ff'
+  scrollbar_color: '#2563eb'
+  meta_theme_color_light: '#ffffff'
+  meta_theme_color_dark: '#0f172a'
+
+rounded_corners_ui: true
+mask:
+  header: true
+  footer: true
+enter_transitions: true
+display_mode: light
+lazyload:
+  enable: true
+  native: true
+  field: site
+
+Open_Graph_meta:
+  enable: true
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">
+  bottom:
+
+CDN:
+  internal_provider: local
+  third_party_provider: jsdelivr
+  version: true

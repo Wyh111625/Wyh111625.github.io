@@ -1,0 +1,75 @@
+:root {
+  --blog-blue: #2563eb;
+  --blog-violet: #7c3aed;
+  --blog-ink: #0f172a;
+  --card-box-shadow: 0 12px 36px rgba(15, 23, 42, 0.08);
+}
+body {
+  font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+#page-header.full_page::before,
+#page-header.post-bg::before,
+#page-header.not-home-page::before {
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.16), rgba(15, 23, 42, 0.58));
+}
+
+#site-title {
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  text-shadow: 0 4px 24px rgba(15, 23, 42, 0.3);
+}
+
+#site-subtitle {
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+#recent-posts > .recent-post-item,
+.card-widget,
+.layout > div:first-child:not(.recent-posts),
+#page,
+#post {
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  box-shadow: var(--card-box-shadow);
+}
+
+#aside-content .card-info .author-info__name {
+  font-weight: 750;
+}
+
+#article-container a:not(.fancybox):not(.btn-beautify) {
+  text-decoration-color: rgba(37, 99, 235, 0.28);
+  text-underline-offset: 0.2em;
+}
+
+#article-container blockquote {
+  border-radius: 0 10px 10px 0;
+}
+
+html[data-theme='dark'] body {
+  --card-box-shadow: 0 12px 36px rgba(0, 0, 0, 0.24);
+}
+
+html[data-theme='dark'] #web_bg {
+  background: linear-gradient(180deg, #0b1120 0%, #111827 100%) !important;
+}
+
+html[data-theme='dark'] #recent-posts > .recent-post-item,
+html[data-theme='dark'] .card-widget,
+html[data-theme='dark'] .layout > div:first-child:not(.recent-posts),
+html[data-theme='dark'] #page,
+html[data-theme='dark'] #post {
+  border-color: rgba(148, 163, 184, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  #site-title {
+    font-size: 2rem !important;
+  }
+
+  #site-subtitle {
+    font-size: 1rem !important;
+  }
+}

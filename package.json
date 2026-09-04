@@ -1,0 +1,35 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal blog powered by Hexo and Butterfly",
+  "scripts": {
+    "clean": "hexo clean",
+    "build": "hexo generate",
+    "server": "hexo server",
+    "new": "hexo new",
+    "draft": "hexo new draft",
+    "publish": "hexo publish"
+  },
+  "hexo": {
+    "version": "8.1.2"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "hexo": "8.1.2",
+    "hexo-generator-archive": "latest",
+    "hexo-generator-category": "latest",
+    "hexo-generator-feed": "^4.0.0",
+    "hexo-generator-index": "latest",
+    "hexo-generator-searchdb": "^1.5.0",
+    "hexo-generator-sitemap": "^3.0.1",
+    "hexo-generator-tag": "latest",
+    "hexo-renderer-marked": "latest",
+    "hexo-renderer-pug": "3.0.0",
+    "hexo-renderer-stylus": "3.0.1",
+    "hexo-server": "latest",
+    "hexo-theme-butterfly": "5.7.0"
+  }
+}
