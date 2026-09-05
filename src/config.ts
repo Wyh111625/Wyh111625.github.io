@@ -16,8 +16,8 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: false,
-		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		enable: true,
+		src: "/images/banner.webp",
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -50,9 +50,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/images/avatar.svg",
+	avatar: "/images/avatar.webp",
 	name: "WYH",
-	bio: "保持好奇，持续创造",
+	bio: "Keep going",
 	links: [
 		{
 			name: "GitHub",
