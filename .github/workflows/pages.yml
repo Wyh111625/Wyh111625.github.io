@@ -1,4 +1,4 @@
-name: Deploy Hexo to GitHub Pages
+name: Deploy Fuwari to GitHub Pages
 
 on:
   push:
