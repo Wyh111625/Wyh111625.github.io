@@ -40,6 +40,10 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
 		LinkPreset.Archive,
+		{
+			name: "计算机复习",
+			url: "/posts/computer-review/00-overview/",
+		},
 		LinkPreset.About,
 		{
 			name: "GitHub",
