@@ -9,7 +9,7 @@ draft: false
 showOnHome: false
 ---
 
-> 本文属于「计算机复习」系列。[第 1～7 章专题页](/computer-review/) · [系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
+> 本文属于「计算机复习」系列。[第 1～8 章专题页](/computer-review/) · [系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
 
 **原书范围：PDF 第 65—85 页。** 以下按 Windows 7 教材环境整理；不把现代 Windows 的界面和剪贴板历史功能套入旧版题目。
 

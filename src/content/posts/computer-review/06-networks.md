@@ -9,7 +9,7 @@ draft: false
 showOnHome: false
 ---
 
-> 本文属于「计算机复习」系列。[第 1～7 章专题页](/computer-review/) · [系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
+> 本文属于「计算机复习」系列。[第 1～8 章专题页](/computer-review/) · [系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
 
 **原书范围：PDF 第 145—188 页；第一章第 53—55 页也有网络概述。** 试卷中的子网划分、端口、MAC 地址、协议三要素须一并掌握。
 

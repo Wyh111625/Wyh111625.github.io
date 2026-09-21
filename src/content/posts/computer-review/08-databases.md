@@ -6,9 +6,10 @@ tags: ["计算机复习","数据库","SQL"]
 category: 计算机复习
 lang: zh_CN
 draft: false
+showOnHome: false
 ---
 
-> 本文属于「计算机复习」系列。[系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
+> 本文属于「计算机复习」系列。[第 1～8 章专题页](/computer-review/) · [系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
 
 **原书范围：PDF 第 197—224 页。** 原书小节沿用了“10.x”编号，但目录属第八章。本笔记统一使用第八章，并补足卷末 SQL 综合题。
 
@@ -273,4 +274,4 @@ DROP VIEW MathStudent;
 
 ---
 
-[系列目录与阅读说明](/posts/computer-review/00-overview/) · [上一篇：07｜多媒体技术与信息安全](/posts/computer-review/07-multimedia/) · [下一篇：附录 A｜程序设计实操](/posts/computer-review/09-programming/)
+[系列目录与阅读说明](/posts/computer-review/00-overview/) · [上一篇：07｜多媒体技术与信息安全](/posts/computer-review/07-multimedia/)

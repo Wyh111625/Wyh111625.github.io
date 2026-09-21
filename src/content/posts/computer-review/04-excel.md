@@ -9,7 +9,7 @@ draft: false
 showOnHome: false
 ---
 
-> 本文属于「计算机复习」系列。[第 1～7 章专题页](/computer-review/) · [系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
+> 本文属于「计算机复习」系列。[第 1～8 章专题页](/computer-review/) · [系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
 
 **原书范围：PDF 第 106—129 页。** 本章既考操作，也考公式推算；引用规则和数据类型比记按钮位置更重要。
 
