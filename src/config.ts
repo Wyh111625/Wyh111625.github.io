@@ -42,7 +42,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		{
 			name: "计算机复习",
-			url: "/posts/computer-review/00-overview/",
+			url: "/computer-review/",
 		},
 		LinkPreset.About,
 		{

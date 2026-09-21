@@ -6,9 +6,10 @@ tags: ["计算机复习","Office","Word"]
 category: 计算机复习
 lang: zh_CN
 draft: false
+showOnHome: false
 ---
 
-> 本文属于「计算机复习」系列。[系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
+> 本文属于「计算机复习」系列。[第 1～7 章专题页](/computer-review/) · [系列目录与阅读说明](/posts/computer-review/00-overview/)；文中页码指原教材 PDF 页码，Windows／Office 操作沿用 Windows 7／Office 2010 语境。
 
 **原书范围：PDF 第 86—105 页。** 习题混有 Word 2003 菜单名称，复习时按功能对应到 Word 2010 功能区；个别旧功能不能直接类推。
 

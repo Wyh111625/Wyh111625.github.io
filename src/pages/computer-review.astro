@@ -1,0 +1,19 @@
+---
+import PostPage from "../components/PostPage.astro";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+import { getSortedPosts } from "../utils/content-utils";
+import { url } from "../utils/url-utils";
+
+const chapters = (await getSortedPosts())
+	.filter((post) => /^computer-review\/0[1-7]-/.test(post.slug))
+	.sort((a, b) => a.slug.localeCompare(b.slug));
+---
+
+<MainGridLayout title="计算机复习 · 第 1～7 章" description="按章节阅读计算机基础、Windows、Office、计算机网络与多媒体知识总结。">
+    <section class="card-base p-6 md:p-9 mb-4">
+        <h1 class="text-3xl font-bold text-90 mb-4">计算机复习 · 第 1～7 章</h1>
+        <p class="text-75 leading-relaxed mb-4">从计算机基础到 Windows、Office、网络与多媒体，按章节整理知识点、例题和易错点。选择下方章节开始复习。</p>
+        <a class="link font-bold" href={url("/posts/computer-review/00-overview/")}>查看完整目录、数据库章节与补充附录 →</a>
+    </section>
+    <PostPage page={{ data: chapters }} />
+</MainGridLayout>
